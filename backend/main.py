@@ -35,7 +35,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # Isso permite que a Vercel acesse o Render
+    allow_origins=["*"], # Permite que seu localhost e a Vercel acessem o Render
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

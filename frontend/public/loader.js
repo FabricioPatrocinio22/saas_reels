@@ -2,7 +2,7 @@
     const scriptTag = document.currentScript;
     const widgetId = scriptTag.getAttribute('data-widget-id');
     const currentPath = window.location.pathname; // Detecta em qual página o cliente está
-    const API_URL = `https://saas-reels.vercel.app/api/widget/${widgetId}?url=${currentPath}`;
+    const API_URL = `https://saas-reels.onrender.com/api/widget/${widgetId}?url=${currentPath}`;
 
     let playlist = [];
     let currentIndex = 0;
