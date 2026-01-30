@@ -3,7 +3,7 @@ import axios from 'axios' // Biblioteca para fazer requisições
 import { Play, Plus, Trash2, Link as LinkIcon, Monitor, X } from 'lucide-react'
 
 // URL do Backend
-const API_URL = "http://127.0.0.1:8000"
+const API_URL = "https://saas-reels.onrender.com"
 const WIDGET_ID = "wdg_teste_01" // Fixo para este teste
 
 function App() {
