@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Play, Plus, Trash2, Link as LinkIcon, Monitor, X, LogOut, UserPlus, LogIn } from 'lucide-react'
 
-const API_URL = "http://127.0.0.1:8000" // Use Localhost para testar o login novo
+const API_URL = "https://saas-reels.onrender.com" // Use Localhost para testar o login novo
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('token'))
